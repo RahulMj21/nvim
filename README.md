@@ -9,7 +9,7 @@ aimed at web development but ready to go with Python, Rust, Golang, Deno and Lua
 ## Clone the repository into ~/.config/nvim
 
 ```bash
-git clone https://github.com/bushblade/nvim.git ~/.config/nvim
+git clone https://github.com/RahulMj21/nvim.git ~/.config/nvim
 ```
 
 > TIP: [No sudo on global npm install](https://github.com/sindresorhus/guides/blob/main/npm-global-without-sudo.md)
