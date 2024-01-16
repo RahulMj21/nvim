@@ -16,7 +16,7 @@ return {
   -- Useful status updates for LSP
   { "j-hui/fidget.nvim", opts = { window = { border = "rounded", blend = 0 } }, tag = "legacy" },
 
-  "preservim/nerdcommenter",
+  { "numToStr/Comment.nvim", opts = {} },
   { "lewis6991/gitsigns.nvim", opts = {} },
   "weilbith/nvim-code-action-menu",
   {
