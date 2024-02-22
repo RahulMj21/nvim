@@ -13,6 +13,9 @@ return {
   "andweeb/presence.nvim",
   "kyazdani42/nvim-web-devicons",
 
+  -- tmux
+  { "christoomey/vim-tmux-navigator", lazy = false },
+
   -- Useful status updates for LSP
   { "j-hui/fidget.nvim", opts = { window = { border = "rounded", blend = 0 } }, tag = "legacy" },
 
