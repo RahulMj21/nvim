@@ -68,6 +68,7 @@ local mappings = {
     { "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true } },
     { "gx", '<Cmd>call jobstart(["xdg-open", expand("<cfile>")], {"detach": v:true})<CR>' },
     { "<leader>gg", ":Gitsigns preview_hunk<CR>" },
+    { "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>" },
     { "<C-h>", "<cmd> TmuxNavigateLeft<CR>" },
     { "<C-l>", "<cmd> TmuxNavigateRight<CR>" },
     { "<C-j>", "<cmd> TmuxNavigateDown<CR>" },
