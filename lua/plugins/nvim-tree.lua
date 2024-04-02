@@ -6,8 +6,7 @@ return {
         dotfiles = false,
         git_clean = false,
         no_buffer = false,
-        exclude = { "dist", ".env*", "*.txt", "output" },
-        custom = { ".git" },
+        exclude = { "dist", ".*", "*.txt", "output", "*.*", "*" },
       },
       view = {
         adaptive_size = true,
