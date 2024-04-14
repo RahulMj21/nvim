@@ -12,6 +12,7 @@ return {
   "goolord/alpha-nvim",
   "andweeb/presence.nvim",
   "kyazdani42/nvim-web-devicons",
+  "mg979/vim-visual-multi",
 
   -- tmux
   { "christoomey/vim-tmux-navigator", lazy = false },
