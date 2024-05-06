@@ -28,7 +28,8 @@ vim.opt.mousemodel = "popup"
 vim.opt.timeoutlen = 500
 
 -- Neovide settings
-vim.o.guifont = "Victor Mono Nerd Font:h11"
+vim.o.guifont = "JetBrainsMono Nerd Font Mono:style=Regular:h10.7"
+vim.g.neovide_cursor_vfx_mode = "railgun"
 
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
